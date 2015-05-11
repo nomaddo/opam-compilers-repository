@@ -1,0 +1,8 @@
+opam-version: "1"
+name: "4.02+inline_dev"
+src: "https://github.com/nomaddo/ocaml/archive/inline_dev.tar.gz"
+make: [ "world" "opt" "opt.opt" ]
+packages : [ "base-unix" "base-bigarray" "base-threads" ]
+env: [
+  [ CAML_LD_LIBRARY_PATH = "%{lib}%/stublibs" ]
+]
