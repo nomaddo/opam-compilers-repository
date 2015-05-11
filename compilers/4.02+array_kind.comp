@@ -2,7 +2,7 @@ opam-version: "1"
 name: "4.02+array_kind"
 src: "https://github.com/nomaddo/ocaml/archive/show-array-kind.tar.gz"
 build: [
-  ["./configure"]
+  ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]
   [make "world.opt"]
   [make "install"]
