@@ -1,2 +1,0 @@
-lib = [ "kb.ml" "noiz.ml" "set.ml" ]
-bin = [ "bench-kb" "bench-noiz" "bench-set" ]
