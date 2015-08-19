@@ -1,6 +1,6 @@
 opam-version: "1"
-name: "4.02+inline_dev"
-src: "https://github.com/nomaddo/ocaml/archive/inline_dev.tar.gz"
+name: "4.02.2+specialize_arr_op"
+src: "https://github.com/nomaddo/ocaml/archive/refactor_inline.tar.gz"
 build: [
   ["./configure" "-prefix" prefix "-with-debug-runtime"]
   [make "world"]

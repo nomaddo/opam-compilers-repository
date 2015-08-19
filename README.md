@@ -1,1 +1,1 @@
-[OPAM](http://github.com/OCamlPro/opam) repository for my [OCaml](https://github.com/chambart/ocaml) branches
+[OPAM](http://github.com/OCamlPro/opam) repository for my branches
